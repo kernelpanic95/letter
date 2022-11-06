@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono);
+/*
+@font-face {
+  font-family: 'Yomogi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/yomogi/v8/VuJwdNrS2ZL7rpoPWA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Zen Loop';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zenloop/v7/h0GtssK16UsnJwHsEJ9xoQg.ttf) format('truetype');
+}*/
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
+:root {
+  scroll-behavior: smooth;
+  --font-family: "JetBrains Mono", monospace;
+}
+body {
+  background: rgb(255, 203, 125);
+  display: flex;
+  flex-flow: column;
+  background: rgb(255, 203, 125));
+}
+h1 {
+  text-decoration: none;
+  color: rgb(255, 203, 125);
+  text-shadow: 0 0 2px black;
+  padding: 5vmin;
+  box-sizing: border-box;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background: black;
+}
+article {
+  box-sizing: border-box;
+  padding: 5vmin;
+  width: 50vw;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 203, 125);
+  border-radius: 5px;
+  border-block: 2px solid rgb(255, 203, 125);
+  border-inline: 2px solid rgb(255, 203, 125);
+  box-shadow: 0 0 0 5px #000;
+  /*font-family: 'Yomogi', cursive;*/
+  place-self: center;
+  margin-block: 10vh;
+}
+article:last-of-type {
+  border-radius: 5px 5px 0 0;
+  border-block-end-width: 0;
+  margin-block: 80vh;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+article h2 {
+  font-weight: bold;
+  margin: 1ch 0;
+}
+a {
+  color: inherit;
+  
+}
+a:link, a:visited {
+  text-decoration: none;
+}
