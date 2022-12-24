@@ -1,8 +1,8 @@
 import * as THREE from '//cdn.skypack.dev/three@0.130.0?min'
 import { gsap } from '//cdn.skypack.dev/gsap@3.7.0?min'
 
-const imgUrl = '955.jpg'
-const imgRatio = 634 / 951;
+const imgUrl = 'photo.jpg'
+const imgRatio = 2000 / 1970
 const targetCameraZ = 180;
 const instanceSize = 1;
 const randRangeZ = 2 * (targetCameraZ) * .99; // spread *.5 +-
