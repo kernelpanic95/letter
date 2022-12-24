@@ -68,6 +68,7 @@ article:last-of-type {
 }
 article h2 {
   font-weight: bold;
+  font-size: 1cm;
   margin: 1ch 0;
 }
 a {
