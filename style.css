@@ -31,7 +31,7 @@ body {
   background: rgb(255, 203, 125);
   display: flex;
   flex-flow: column;
-  background: rgb(255, 203, 125));
+  background: rgb(255, 203, 125);
 }
 h1 {
   text-decoration: none;
@@ -68,6 +68,7 @@ article:last-of-type {
 }
 article h2 {
   font-weight: bold;
+  font-size: 1cm;
   margin: 1ch 0;
 }
 a {
